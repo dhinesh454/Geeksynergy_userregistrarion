@@ -91,6 +91,7 @@ const UserProvider = (props) => {
 
             for (const key in users) {
                 fetchedUsers.push({
+                    key:users[key]._id,
                     id: users[key]._id,
                     name: users[key].name,
                     phoneno:users[key].phoneno,
