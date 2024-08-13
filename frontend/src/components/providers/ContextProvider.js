@@ -11,7 +11,7 @@ const userReducer = (state,action) => {
        
          console.log('state',state);
          console.log('action',action);
-         var updatedUsers = state.users.concat(action.users)
+         var updatedUsers = [...action.users]
 
             return{
                 users:updatedUsers
