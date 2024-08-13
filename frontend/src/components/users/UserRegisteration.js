@@ -80,7 +80,7 @@ const UserRegisteration = () => {
                 <Row className="mb-3">
                     <Form.Group as={Col}>
                         <Form.Label className="fw-bold fst-italic ">Name</Form.Label>
-                        <Form.Control type="text" placeholder="Enter your email" ref={nameRef} required/>
+                        <Form.Control type="text" placeholder="Enter your Name" ref={nameRef} required/>
                     </Form.Group>
                 </Row>
                 <Row className="mb-3">
@@ -92,14 +92,14 @@ const UserRegisteration = () => {
                 <Row className="mb-3">
                     <Form.Group as={Col}>
                         <Form.Label className="fw-bold fst-italic ">Password</Form.Label>
-                        <Form.Control type="password" placeholder="Enter your password" ref={passwordRef} minLength={6} required/>
+                        <Form.Control type="password" placeholder="Enter your Password" ref={passwordRef} minLength={6} required/>
                     </Form.Group>
                 </Row>
 
                 <Row className="mb-3">
                     <Form.Group as={Col}>
                         <Form.Label className="fw-bold fst-italic ">PhoneNo</Form.Label>
-                        <Form.Control type="number" placeholder="Enter your phoneno" ref={phonenoRef} minLength={10} required/>
+                        <Form.Control type="number" placeholder="Enter your Phoneno" ref={phonenoRef} minLength={10} required/>
                     </Form.Group>
                 </Row>
                 <Row className="mb-3">
