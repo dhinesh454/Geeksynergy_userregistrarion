@@ -105,7 +105,7 @@ const UserRegisteration = () => {
                 <Row className="mb-3">
                     <Form.Group as={Col}>
                         <Form.Label className="fw-bold fst-italic ">Profession</Form.Label>
-                        <Form.Control type="text" placeholder="Enter your Profession" ref={professionRef} minLength={6} required/>
+                        <Form.Control type="text" placeholder="Enter your Profession" ref={professionRef} required/>
                     </Form.Group>
                 </Row>
 
